@@ -10,4 +10,4 @@ Additionally, the project is incorporated with further details such as:
   1) Limiting the number of attempts.
   2) Adding more rounds.
   3) Displaying score.
-  4) Giving points based on the number of attempts.
+  4) Giving points based on the number of attempts.  
