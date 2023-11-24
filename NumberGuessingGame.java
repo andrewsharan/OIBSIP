@@ -46,7 +46,6 @@ class NumberGuessingGame {
                 }
             } catch (NumberFormatException e) {
                 System.out.println("Invalid input. Please enter a valid number or 'exit' to quit.");
-                // Consume the invalid input to avoid an infinite loop
                 scanner.next();
             }
         }
