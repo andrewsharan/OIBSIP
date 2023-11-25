@@ -13,7 +13,7 @@ class NumberGuessingGame {
         int attempts = 0;
         int score = 0;
 
-        System.out.println("Welcome to Corrected Number Guessing Game!");
+        System.out.println("Welcome to Number Guessing Game!");
         System.out.println("I have selected a number between " + start + " and " + end);
         System.out.println("You can type 'exit' to quit the game at any time.");
 
@@ -45,7 +45,7 @@ class NumberGuessingGame {
                     System.out.println("Sorry, you've run out of attempts. The correct number was: " + targetNumber);
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Invalid input. Please enter a valid number or 'exit' to quit.");
+                System.out.println("Invalid input. Please enter a valid number or type 'exit' to quit.");
                 scanner.next();
             }
         }
